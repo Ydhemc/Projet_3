@@ -1,0 +1,262 @@
+* {
+    margin-left: 0%;
+    margin-right: 0%;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+/*Haut*/
+
+header {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+header img {
+    width: 200px;
+}
+
+
+/*Info*/
+
+#formulaire {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*barre de localisation*/
+
+#formulaire form {
+    width: 100%;
+    background: lightgray;
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#formulaire input {
+    border: none;
+    background: lightgray;
+    font-size: 18px;
+    margin-left: 15px;
+}
+
+
+/*----------------*/
+
+#info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background: #F2F2F2;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#info h1 {
+    margin: 0;
+}
+
+#info button {
+    margin-top: 20px;
+    border: none;
+    border-radius: 50px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-size: 20px;
+    background: rgb(147, 86, 220);
+    background: linear-gradient(0deg, rgba(147, 86, 220, 1) 30%, rgba(255, 121, 218, 1) 100%);
+}
+
+#info button:hover {
+    cursor: pointer;
+}
+
+
+/*Accueil*/
+
+#accueil {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.indication {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    width: 300px;
+    background: #F2F2F2;
+    border-radius: 15px;
+    box-shadow: 10px 5px 15px grey;
+}
+
+.indication i {
+    margin-right: 20px;
+}
+
+.indication:hover {
+    background: #d3aeff;
+    cursor: default;
+}
+
+.rond {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 25px;
+    width: 25px;
+    background: #9356dc;
+    border-radius: 50%;
+    position: relative;
+    right: 35px;
+    color: white;
+}
+
+
+/*restaurants*/
+
+.carte {
+    display: flex;
+    justify-content: space-around;
+}
+
+article {
+    width: 300px;
+    height: 200px;
+    box-shadow: 15px 15px 15px lightgray;
+    border-radius: 20px;
+    margin-bottom: 15px;
+}
+
+article img {
+    height: 70%;
+    width: 100%;
+    object-fit: cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.nouveau {
+    width: 80px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    position: relative;
+    left: 210px;
+    top: -130px;
+    background: lightgreen;
+    color: green;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.nouveau p {
+    margin: 0%;
+}
+
+.description div h2 {
+    margin-bottom: -15px;
+}
+
+.description {
+    padding-right: 10px;
+    padding-left: 10px;
+    position: relative;
+    bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.positionnement {
+    position: relative;
+    bottom: 50px;
+}
+
+.fa-heart:hover {
+    /*font-weight: bold;
+    color: red;
+    cursor: pointer;*/
+    animation: remplissagecoeur 10s linear 1;
+}
+
+@keyframes remplissagecoeur {
+    0% {
+        font-weight: normal;
+        color: black;
+    }
+    10% {
+        color: red;
+    }
+    30% {
+        font-weight: bold;
+        transform: scale(1.4);
+    }
+    40% {
+        color: rgb(230, 172, 172);
+    }
+    60% {
+        color: rgb(252, 143, 143);
+    }
+    80% {
+        color: rgb(214, 83, 83);
+        transform: scale(1);
+    }
+    100% {
+        color: red;
+        cursor: pointer;
+    }
+}
+
+
+/*Pied*/
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer {
+    margin-top: 50px;
+    height: 100px;
+    background: rgb(44, 42, 42);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer img {
+    width: 100px;
+    fill: white;
+}
+
+footer a {
+    color: white;
+}
+
+@media screen and (max-width: 992px) {
+    .carte {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    /*maquette*/
+}
