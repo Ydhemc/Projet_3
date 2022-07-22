@@ -190,30 +190,33 @@ article img {
 }
 
 .fa-heart:hover {
-    /*font-weight: bold;
+    cursor: pointer;
+    animation: remplissagecoeur 1s ease-in 1;
+    font-weight: bold;
     color: red;
-    cursor: pointer;*/
-    animation: remplissagecoeur 10s linear 1;
 }
 
 @keyframes remplissagecoeur {
     0% {
         font-weight: normal;
-        color: black;
+        color: rgb(240, 190, 190);
+        transform: scale(0.2);
     }
     10% {
-        color: red;
-    }
-    30% {
         font-weight: bold;
-        transform: scale(1.4);
+    }
+    /*
+    30% {
+        transform: scale(0.5);
     }
     40% {
         color: rgb(230, 172, 172);
     }
     60% {
         color: rgb(252, 143, 143);
+        transform: scale(0.8);
     }
+    */
     80% {
         color: rgb(214, 83, 83);
         transform: scale(1);
