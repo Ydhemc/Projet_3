@@ -96,6 +96,29 @@ header i {
     margin-bottom: -10px;
 }
 
+.choix:hover>span {
+    display: inline-flex;
+}
+
+.check {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 10px;
+    height: 73px;
+    width: 70px;
+    background-color: green;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    display: none;
+}
+
+.check i {
+    font-size: 25px;
+    color: white;
+}
+
 
 /*boutton*/
 
