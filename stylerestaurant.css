@@ -24,6 +24,7 @@ header img {
 header i {
     position: relative;
     right: 100px;
+    color: black;
 }
 
 #image img {
@@ -278,9 +279,9 @@ footer {
     padding-bottom: 10px;
 }
 
-footer img {
-    width: 100px;
+footer svg {
     fill: white;
+    width: 150px;
 }
 
 footer a {
