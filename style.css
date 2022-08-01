@@ -123,7 +123,7 @@ header img {
 
 #formulaire form {
     width: 100%;
-    background: lightgray;
+    background: #eaeaea;
     display: flex;
     justify-content: center;
     padding-top: 15px;
@@ -132,7 +132,7 @@ header img {
 
 #formulaire input {
     border: none;
-    background: lightgray;
+    background: #eaeaea;
     font-size: 18px;
     text-align: center;
 }
@@ -146,7 +146,7 @@ header img {
     align-items: center;
     justify-content: center;
     width: 100%;
-    background: #F2F2F2;
+    background: #f6f6f6;
     padding-top: 40px;
     padding-bottom: 40px;
 }
@@ -190,13 +190,14 @@ header img {
     justify-content: center;
     margin: 20px;
     width: 300px;
-    background: #F2F2F2;
+    background: #f6f6f6;
     border-radius: 15px;
     box-shadow: 10px 5px 15px grey;
 }
 
 .indication i {
     margin-right: 20px;
+    color: #7e7e7e;
 }
 
 .indication:hover {
@@ -252,8 +253,8 @@ article img {
     position: relative;
     left: 210px;
     top: -130px;
-    background: lightgreen;
-    color: green;
+    background: #99E2D0;
+    color: #269e80;
     display: flex;
     justify-content: center;
     border-radius: 5px;
@@ -319,7 +320,7 @@ footer {
     flex-direction: column;
     align-items: center;
     height: 100px;
-    background: rgb(44, 42, 42);
+    background: #353535;
     display: flex;
     justify-content: space-around;
     align-items: center;
