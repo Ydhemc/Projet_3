@@ -166,7 +166,7 @@ header img {
     color: white;
     font-size: 20px;
     background: rgb(147, 86, 220);
-    background: linear-gradient(0deg, rgba(147, 86, 220, 1) 30%, rgba(255, 121, 218, 1) 100%);
+    background: linear-gradient(342deg, rgba(147, 86, 220, 1) 40%, rgba(255, 121, 218, 1) 100%);
 }
 
 #info button:hover {
